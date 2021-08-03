@@ -28,6 +28,6 @@ Nomes que deixem claro sua função pode parecer algo óbvio, mas é muito impor
 
 O nome de uma variável, função ou classe deve responder as princípais questões, deve dizer porque existe, o que faz e como é usado. Se um nome requer um comentário, então ele não revela o seu propósito.
 
-```py
+~~~python
     int d; //Tempo decorrido em dias
-```
+~~~
