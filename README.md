@@ -33,5 +33,6 @@ codigo limpo requer atenção nos detalhes
 
 &ensp;&ensp;&ensp;&ensp;Variaveis, funções, parâmetros, classes, pacotes, arquivos-fonte e os diretórios que os possui. Todas essas e algumas outras coisas possuem nomes dados por nós. Nomeamos, nomeamos e nomeamos, como é algo que fazemos com bastante frequência, é melhor quue façamos isso bem não é? Vejamos a seguir regras para a criação de bons nomes.  
 
-#### Nomes que revelem o seu propósito
+### Nomes que revelem o seu propósito
 
+Nomes que deixem claro sua função pode parecer algo óbvio, mas é muito importante gastar um certo tempo para ter certeza de que aquele é o nome correto.
