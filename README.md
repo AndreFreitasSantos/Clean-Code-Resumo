@@ -137,3 +137,13 @@ Você deve sempre evitar falsas dicas que confundam o sentido do código. Nós d
 Tome cuidado com nomes muito parecidos, ``xyzControladorParaArmazenamentoEficienteDeStrings`` e o modulo ``xyzControladorParaMudancaEficienteDeStrings``, podem ser confundidos em meio ao código trazendo extrema confusão. Nomes iguais podem atrapalhar também com as funções de auto-completar das IDEs atuais, onde um desenvolvedor pode acabar se confundindo quanto ao objeto, a função ou método que desejava por terem nomes parecidos.  
 
 Um exemplo de algo que pode gerar confusão é o uso da letra "L" em minusculo ou da letra "O", pois elas podem ser confundidas com o numero um e o zero respectivamente.
+
+~~~java
+
+int a = l;
+if ( O == l )
+	a = 01;
+else 
+	l = 01;
+
+~~~
