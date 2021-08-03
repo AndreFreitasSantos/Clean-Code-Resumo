@@ -3,7 +3,7 @@
 
   
 
-# Clean Code Resumo
+### Clean Code Resumo
 
   
 
@@ -13,7 +13,7 @@
 
   
 
-## O Custo De Ter Um Código Confuso
+# O Custo De Ter Um Código Confuso
 
   
 
@@ -35,13 +35,13 @@ Com a diminuição da produção da equipe, a empresa contrata novos desenvolved
 
 ### Nomes Significativos
 
-  
+
 
 Variaveis, funções, parâmetros, classes, pacotes, arquivos-fonte e os diretórios que os possui. Todas essas e algumas outras coisas possuem nomes dados por nós. Nomeamos, nomeamos e nomeamos, como é algo que fazemos com bastante frequência, é melhor quue façamos isso bem não é? Vejamos a seguir regras para a criação de bons nomes.
 
   
 
-#### Nomes que revelem o seu propósito
+### Nomes que revelem o seu propósito
 
   
 
@@ -98,7 +98,7 @@ O código tem uma boa endentação, temos apenas três variáveis e duas constan
 
 Agora sabendo que este código tem haver com um jogo de campo minado, que "theList" armazena os quadrados do jogo. Não seria muito melhor renomeá-la para "tabuleiro"?
 
-#### Evite informações erradas
+### Evite informações erradas
 
 Cada quadrado do tabuleiro é representado por um vetor simples, onde o índice zero armazena um valor de status e que o valor 4 significa "Marcado com uma bandeira". Ao renomear podemos agora ter um código muito mais inteligível:
 
