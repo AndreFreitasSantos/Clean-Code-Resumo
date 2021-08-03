@@ -31,11 +31,7 @@ Com a diminuição da produção da equipe, a empresa contrata novos desenvolved
 
 ## Regras para ter um código bem escrito
 
-  
-
 ### Nomes Significativos
-
-
 
 Variaveis, funções, parâmetros, classes, pacotes, arquivos-fonte e os diretórios que os possui. Todas essas e algumas outras coisas possuem nomes dados por nós. Nomeamos, nomeamos e nomeamos, como é algo que fazemos com bastante frequência, é melhor quue façamos isso bem não é? Vejamos a seguir regras para a criação de bons nomes.
 
@@ -43,13 +39,11 @@ Variaveis, funções, parâmetros, classes, pacotes, arquivos-fonte e os diretó
 
 ### Nomes que revelem o seu propósito
 
-  
-
-Nomes que deixem claro sua função pode parecer algo óbvio, mas é muito importante gastar um certo tempo para ter certeza de que aquele é o nome correto, até porque, um nome mal elaborado pode te fazer perder bem mais tempo.
+* Nomes que deixem claro sua função pode parecer algo óbvio, mas é muito importante gastar um certo tempo para ter certeza de que aquele é o nome correto, até porque, um nome mal elaborado pode te fazer perder bem mais tempo.
 
   
 
-O nome de uma variável, função ou classe deve responder as principais questões, deve dizer porque existe, o que faz e como é usado. Se um nome requer um comentário, então ele não revela o seu propósito.
+* O nome de uma variável, função ou classe deve responder as principais questões, deve dizer porque existe, o que faz e como é usado. Se um nome requer um comentário, então ele não revela o seu propósito.
 
   
 
@@ -132,9 +126,9 @@ Com essa mudança de nomes, o código muda a nossa forma de raciocinar sobre o c
 
 ### Evite informações erradas
 
-Você deve sempre evitar falsas dicas que confundam o sentido do código. Nós devemos evitar usar palavras que possam ter uma interpretação diferente do que queremos. Por exemplo, um grupo de contas, chamado de "``listaContas``". A menos que seja realmente uma list que contenha as contas dos usuários, não devemos utilizar a palavra "lista" pois está tem um significado especial para os programadores dentro do código. Se não for realmente uma lista, é melhor ter um nome como "``GrupoDeContas``" ou apenas "``Contas``".
+* Você deve sempre evitar falsas dicas que confundam o sentido do código. Nós devemos evitar usar palavras que possam ter uma interpretação diferente do que queremos. Por exemplo, um grupo de contas, chamado de "``listaContas``". A menos que seja realmente uma list que contenha as contas dos usuários, não devemos utilizar a palavra "lista" pois está tem um significado especial para os programadores dentro do código. Se não for realmente uma lista, é melhor ter um nome como "``GrupoDeContas``" ou apenas "``Contas``".
 
-Tome cuidado com nomes muito parecidos, ``xyzControladorParaArmazenamentoEficienteDeStrings`` e o modulo ``xyzControladorParaMudancaEficienteDeStrings``, podem ser confundidos em meio ao código trazendo extrema confusão. Nomes iguais podem atrapalhar também com as funções de auto-completar das IDEs atuais, onde um desenvolvedor pode acabar se confundindo quanto ao objeto, a função ou método que desejava por terem nomes parecidos.  
+* Tome cuidado com nomes muito parecidos, ``xyzControladorParaArmazenamentoEficienteDeStrings`` e o modulo ``xyzControladorParaMudancaEficienteDeStrings``, podem ser confundidos em meio ao código trazendo extrema confusão. Nomes iguais podem atrapalhar também com as funções de auto-completar das IDEs atuais, onde um desenvolvedor pode acabar se confundindo quanto ao objeto, a função ou método que desejava por terem nomes parecidos.  
 
 Um exemplo de algo que pode gerar confusão é o uso da letra "L" em minusculo ou da letra "O", pois elas podem ser confundidas com o numero um e o zero respectivamente.
 
