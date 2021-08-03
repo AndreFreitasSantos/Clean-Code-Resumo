@@ -1,7 +1,7 @@
 
   
 
-## Clean Code Principais Pontos
+# Clean Code Principais Pontos
 
   
 
@@ -9,7 +9,7 @@
 
   
 
-### O Custo De Ter Um Código Confuso
+## O Custo De Ter Um Código Confuso
 
   
 
