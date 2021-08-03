@@ -24,4 +24,10 @@ Variaveis, funções, parâmetros, classes, pacotes, arquivos-fonte e os diretó
 
 #### Nomes que revelem o seu propósito
 
-Nomes que deixem claro sua função pode parecer algo óbvio, mas é muito importante gastar um certo tempo para ter certeza de que aquele é o nome correto.
+Nomes que deixem claro sua função pode parecer algo óbvio, mas é muito importante gastar um certo tempo para ter certeza de que aquele é o nome correto, até porque, um nome mal elaborado pode te fazer perder bem mais tempo.
+
+O nome de uma variável, função ou classe deve responder as princípais questões, deve dizer porque existe, o que faz e como é usado. Se um nome requer um comentário, então ele não revela o seu propósito.
+
+```py
+    int d; //Tempo decorrido em dias
+```
