@@ -87,3 +87,10 @@ public List<int[]> getThem(){
 ~~~
 
 Por que é tão difícil dizer o que faz esse pequeno código? Não há expressões complexas.
+
+O código tem uma boa endentação, temos apenas três variáveis e duas constantes. Nem mesmo temos classes ou métodos  polimórficos. Apenas uma lista de vetores (ao que parece). Ou seja, o problema não é a complexidade do código que estamos  lendo, e sim qual o contexto em que ele está inserido, o que está completamente oculto. Deveríamos ser capazes de apenas olhando responder:
+
+* Que tipo de coisas temos em theList?
+* Qual a importância do índice zero em theList?
+* Qual a importância do 4?
+* Como seria usada a lista retornada?
