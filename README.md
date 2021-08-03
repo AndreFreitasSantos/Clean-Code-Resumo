@@ -133,3 +133,5 @@ Com essa mudança de nomes, o código muda a nossa forma de raciocinar sobre o c
 ### Evite informações erradas
 
 Você deve sempre evitar falsas dicas que confundam o sentido do código. Nós devemos evitar usar palavras que possam ter uma interpretação diferente do que queremos. Por exemplo, um grupo de contas, chamado de "``listaContas``". A menos que seja realmente uma list que contenha as contas dos usuários, não devemos utilizar a palavra "lista" pois está tem um significado especial para os programadores dentro do código. Se não for realmente uma lista, é melhor ter um nome como "``GrupoDeContas``" ou apenas "``Contas``".
+
+Tome cuidado com nomes muito parecidos, ``xyzControladorParaArmazenamentoEficienteDeStrings`` e o modulo ``xyzControladorParaMudançaEficienteDeStrings``, podem ser confundidos em meio ao código trazendo extrema confusão. Nomes iguais podem atrapalhar também com as funções de auto-completar das IDEs atuais, onde um desenvolvedor pode acabar se confundindo quanto ao objeto que desejava por terem nomes parecidos.  
