@@ -78,7 +78,7 @@ Escolher bons nomes facilita bastante o entendimento e a manutenção do código
 
 public List<int[]> getThem(){
 	List<int[]> list1 = new Arraylist<list[]>();
-	for(int[] x : theList)
+	for(int[] x : Lista)
 		if (x[0] == 4)
 			 list1.add(x)
 		return list1;
@@ -90,7 +90,26 @@ Por que é tão difícil dizer o que faz esse pequeno código? Não há express�
 
 O código tem uma boa endentação, temos apenas três variáveis e duas constantes. Nem mesmo temos classes ou métodos  polimórficos. Apenas uma lista de vetores (ao que parece). Ou seja, o problema não é a complexidade do código que estamos  lendo, e sim qual o contexto em que ele está inserido, o que está completamente oculto. Deveríamos ser capazes de apenas olhando responder:
 
-* Que tipo de coisas temos em theList?
-* Qual a importância do índice zero em theList?
-* Qual a importância do 4?
-* Como seria usada a lista retornada?
+1. Que tipo de coisas temos em Lista?
+2. Qual a importância do índice zero em Lista?
+3. Qual a importância do 4?
+4. Como seria usada a lista retornada?
+
+
+Agora sabendo que este código tem haver com um jogo de campo minado, que "theList" armazena os quadrados do jogo. Não seria muito melhor renomeá-la para "tabuleiro"?
+
+#### Evite informações erradas
+
+Cada quadrado do tabuleiro é representado por um vetor simples, onde o índice zero armazena um valor de status e que o valor 4 significa "Marcado com uma bandeira". Ao renomear podemos agora ter um código muito mais inteligível:
+
+~~~java
+
+public List<int[]> PegarQuadradosComBandeira(){
+	List<int[]> quadradosComBandeira = new Arraylist<list[]>();
+	for(int[] x : tabuleiro)
+		if (x[STATUS] == Bandeira)
+			 quadradosComBandeira.add(x)
+		return quadradosComBandeira;
+}
+
+~~~
